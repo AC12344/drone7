@@ -126,9 +126,9 @@ thresholdG = 5;
 
 if __name__ == '__main__':
 
-    SENSOR_COMBINED = 'files/TEST9_08-02-19/TEST9_08-02-19_sensor_combined_0.csv'
-    MANUAL_CONTROLLED_SETPOINT = 'files/TEST9_08-02-19/TEST9_08-02-19_manual_control_setpoint_0.csv'
-    vehicle_attitude = 'files/TEST9_08-02-19/TEST9_08-02-19_vehicle_attitude_0.csv'
+    SENSOR_COMBINED = '../files/TEST9_08-02-19/TEST9_08-02-19_sensor_combined_0.csv'
+    MANUAL_CONTROLLED_SETPOINT = '../files/TEST9_08-02-19/TEST9_08-02-19_manual_control_setpoint_0.csv'
+    vehicle_attitude = '../files/TEST9_08-02-19/TEST9_08-02-19_vehicle_attitude_0.csv'
 
     # Initialize and load data
     reader = data_loader(
